@@ -128,36 +128,6 @@
     position: relative;
   }
 
-  /* グラデーション背景 - 左1/3 */
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 33.333vw;
-    height: 100vh;
-    background: linear-gradient(90deg, #999999 0%, #ffffff 100%);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    background-position: left top;
-    z-index: -1;
-  }
-
-  /* グラデーション背景 - 右1/3 */
-  body::after {
-    content: '';
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 33.333vw;
-    height: 100vh;
-    background: linear-gradient(90deg, #999999 0%, #ffffff 100%);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    background-position: right top;
-    z-index: -1;
-  }
-
   /* カスタムカーソル */
   .cursor {
     position: fixed;
